@@ -1,15 +1,12 @@
 # Overview
 
-This programming assignment will exercise your skills with stream and
-function programming.
+This programming assignment will exercise your skills with a variety of
+patterns.
 
 The topics that you will cover in this assignment are:
 
-  1. Java streams
-  2. Functional programming
-  3. Strategy Pattern
-  4. Command Pattern
-  
+  1. Visitor Pattern
+  2. Interpreter Pattern
 
 Tip: Commit and push to your repository frequently so that the instructor
 can see your incremental work. Particularly for people that struggle 
@@ -27,13 +24,21 @@ Grading process:
    5. Once the final version is committed, you will be given a grade.
    
 What to do:
-   1. See the edu.vanderbilt.cs.live67ProximityStreamDB interface for instructions
+   1. See the edu.vanderbilt.cs.live9.QueryEngine interface for instructions
    2. You will likely build off of your prior work. If you do so,
       you must fix any tests that break.
    3. When your implementation is complete, make sure the most up
       to date version is committed and pushed to your assignment
       repository.
+   4. One of the hardest parts of this assignment is going to be 
+      figuring out the requirements. Pay careful attention to the
+      example in the QueryEngine.main() method. It generates an
+      abstract syntax tree, prints it out for you, and then shows
+      what a manually crafted FindExpression for that syntax tree
+      would look like. It is your job to implement a visitor that
+      can construct the FindExpressions automatically from an 
+      arbitrary syntax tree.
       
-Warning! There may be typos, bugs, or other issues with the assignment.
+Warning!! There may be typos, bugs, or other issues with the assignment.
 If you encounter a bug, typo, etc., please post to the course discussion
 forum to let the instructor know.
