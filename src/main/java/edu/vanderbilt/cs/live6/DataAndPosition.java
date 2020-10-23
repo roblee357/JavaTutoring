@@ -1,5 +1,7 @@
 package edu.vanderbilt.cs.live6;
 
+import edu.vanderbilt.cs.live6.Position;
+
 public interface DataAndPosition<T> extends Position {
 
     public static <T> DataAndPosition<T> with(double lat, double lon, T data){

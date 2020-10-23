@@ -37,4 +37,3 @@ What to do:
 Warning! There may be typos, bugs, or other issues with the assignment.
 If you encounter a bug, typo, etc., please post to the course discussion
 forum to let the instructor know.
-# JavaTutoring

@@ -1,7 +1,6 @@
 package edu.vanderbilt.cs.live7;
 
 
-import edu.vanderbilt.cs.live6.DataAndPosition;
 import edu.vanderbilt.cs.live6.Position;
 import edu.vanderbilt.cs.live6.ProximityDB;
 
@@ -128,5 +127,4 @@ public interface ProximityStreamDB<T> extends ProximityDB<T> {
      * @return
      */
     public <V> Map<V,Long> histogramNearby(Attribute<V> attr, Position pos, int bitsOfPrecision);
-
 }
